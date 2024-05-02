@@ -23,16 +23,39 @@
             text-align: center;
             font-size: 20px;
         }
+        .player {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
     <h1>Bem-vindo ao Meu Site de Música!</h1>
     <p>Aqui estão os últimos lançamentos, artistas em destaque e playlists populares:</p>
     <div class="carousel">
-        <div><img src="mc-ig.png" alt="album1"></div>
-        <div><img src="TITAS.webp" alt="album2"></div>
-        <div><img src="mc kevin.jpg" alt="album3"></div>
+        <div>
+            <img src="mc-ig.png" alt="album1">
+            <audio controls class="player">
+                <source src="caminho/para/musica1.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </div>
+        <div>
+            <img src="TITAS.webp" alt="album2">
+            <audio controls class="player">
+                <source src="caminho/para/musica2.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </div>
+        <div>
+            <img src="mc kevin.jpg" alt="album3">
+            <audio controls class="player">
+                <source src="caminho/para/musica3.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </div>
         <!-- Adicione mais álbuns conforme necessário -->
     </div>
 </body>
 </html>
+
+
